@@ -9,7 +9,7 @@ import re
 filters = {
     'categoryRaports': 'EBI,ESPI',  # EBI - raporty dla inwestorów, ESPI - bardziej szczegółowe raporty
     'typeRaports': 'RB,P,Q,O,R',  # RB - bieżące, R - roczne, O - okresowe, Q - kwartalne, P - półroczne
-    'searchText': '',  # Nazwa spółki np. ASSECO
+    'searchText': 'asseco',  # Nazwa spółki np. ASSECO
     'date': ''  # Data w formacie 30-08-2023 (często nie działa poprawnie na stronie GPW)
 }
 

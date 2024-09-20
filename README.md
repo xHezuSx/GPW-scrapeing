@@ -1,10 +1,10 @@
 # GPW-scrapeing
 ## Demo Python script scrapes financial reports from the Warsaw Stock Exchange (GPW) website based on user-defined filters.
 
-### Features
-* Extracts report titles, dates, types, links, and exchange rates.
-* Saves scraped data as a CSV file.
-* Downloads attachments associated with reports (if available).
+## Features
+### * **Extracts report titles, dates, types, links, and exchange rates.**
+### * **Saves scraped data as a CSV file.**
+### * **Downloads attachments associated with reports (if available).**
 
 ![Scraping](images/web%20scraper.jpg)
 
@@ -34,9 +34,9 @@
 ## Run the script:
 
 Bash
-`python gpw_report_scraper.py`
+`python script.py`
 
 ## Output
-A CSV file named `AA scraped data.csv` will be created in the `raporty/<company name>` directory, where `company name` is the searched company name.
+A CSV file named `scraped_data.csv` will be created in the `raporty/<company name>` directory, where `company name` is the searched company name.
 If reports have downloadable attachments, they will be saved in the same directory with descriptive filenames.
 The script will print information about the number of reports found and downloaded files.
