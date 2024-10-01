@@ -2,7 +2,7 @@
 
 ### GPW (stock exchange) Scraping Tool is a tool that allows you to download reports from the WSE stock exchange. The tool uses a scraping script that automatically downloads reports for selected companies, based on certain parameters.
 
-![](\images\app.jpg)
+![](/images/app.jpg)
 
 ## functionality
 
@@ -28,7 +28,7 @@ On windows right click on folder where project is, select "open in terminal/CMD"
 pip install -r requirements.txt
 ```
 
-![](images\requirements.gif)
+![](/images/requirements.gif)
 ## Usage 
 
 On windows right click on folder where project is, select "open in terminal/CMD" option and run following command: 
@@ -37,4 +37,4 @@ python .\user_interface.py
 ```
 if everything is good you should see `Running on local URL:  http://127.0.0.1:7860`. Simply open the link and voilà :)
 
-![](\images\run.gif)
+![](/images/run.gif)
